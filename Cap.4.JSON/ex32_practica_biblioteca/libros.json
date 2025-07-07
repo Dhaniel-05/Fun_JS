@@ -1,0 +1,46 @@
+{
+    "biblioteca": [
+        {
+            "titulo": "Construcción y diseño de páginas web con html, css y javascript",
+            "editorial": "Ra-Ma",
+            "edicion": "2023",
+            "isbn": "9789587925852",
+            "autores": {
+            "autor principal": "Pablo E. Fernández Casado",
+            "autor secundario": "",
+            "autor terciario": ""
+            },
+            "codigo sena": ["987654345678"],
+            "descripcion": "Libro para el aprendizaje básico y fundamentos de Páginas Web"
+        },
+
+        {
+            "titulo": "Anatomía Humana",
+            "editorial": "McGrawHill",
+            "edicion": "3",
+            "isbn": "4398-345678-9",
+            "autores": {
+            "autor principal": "Mora Peñaranda Javier Ricardo",
+            "autor secundario": "Girón María del Pilar",
+            "autor terciario": "Rommanconti Peter"
+        },
+            "codigo sena": ["9874345698"],
+            "descripcion": "Enciclopedia de anatomía humana, con ilustraciones y descripciones detalladas de los sistemas del cuerpo humano."
+        }
+        ,
+
+        {
+            "titulo": "Bases de datos, normalización y SQL",
+            "editorial": "Omega",
+            "edicion": "2",
+            "isbn": "9878",
+            "autores": {
+            "autor principal": "Sierra Silva Jorge",
+            "autor secundario": "Márquez Gómez Andrés",
+            "autor terciario": "Martínez Pérez María"
+        },
+            "codigo sena": ["09879876543"],
+            "descripcion": "Este libro ofrece una introducción completa a las bases de datos, incluyendo la normalización y el uso de SQL para la gestión de datos."
+        }
+    ]
+}
