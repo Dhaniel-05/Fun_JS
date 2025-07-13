@@ -62,10 +62,18 @@ gameArea.addEventListener('mousemove', (e) => {
   player.style.top = `${playerY}px`;
 });
 
-// Disparo del jugador
+// Disparo del jugador con mouse
 gameArea.addEventListener('click', () => {
   if (juegoTerminado) return;
   shootLaser(playerX + player.offsetWidth / 2, playerY);
+});
+
+// Disparo del jugador con barra espaciadora
+document.addEventListener('keydown', (event) => {
+  if (juegoTerminado) return;
+  if (event.code === 'Space') {
+    shootLaser(playerX + player.offsetWidth / 2, playerY);
+  }
 });
 
 function shootLaser(x, y) {
